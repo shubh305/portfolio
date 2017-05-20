@@ -1,0 +1,454 @@
+/*Google font*/
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand|Roboto|Khand|Noto+Sans|Open+Sans+Condensed:300|PT+Sans+Narrow|Raleway|Rosario');
+
+/* ==============================
+           Global styles
+   ============================== */
+
+body {
+  font-size: 14px;
+  font-family: "Open Sans", arial, sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  background-color: #EBEBEB;
+}
+
+section {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+hr {
+  height: 3px;
+  width: 30%;
+  background-color: #1C262F;
+  border: none;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: #1C262F;
+  letter-spacing: 1.2px;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #1C2621;
+}
+
+.heading {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: #1C262F;
+  letter-spacing: 2.5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.btn {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0 5px 0 5px;
+  padding-top: 9px;
+  letter-spacing: 1.1px;
+  height: 40px;
+  border-radius: 6px;
+}
+
+.intro {
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.project-item a {
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+button:focus {
+  outline: 0 !important;
+}
+
+.fa-lg {
+  vertical-align: 0!important;
+}
+
+.logo {
+  width: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* ==============================
+             Skills
+   ============================== */
+
+.skill-icon {
+  display: block;
+  text-align: center;
+  height: 80px;
+  width: 80px;
+  border-radius: 20px;
+  margin: 0 auto;
+  padding: 8px;
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.skill-name {
+  text-align: center;
+  font-weight: bold;
+}
+
+.html {
+  color: #F16529;
+}
+
+.css {
+  color: #254CE3;
+}
+
+.js {
+  color: #DAB92D;
+}
+
+.bootstrap {
+  color: #3D1D46;
+}
+
+.angular {
+  color: #AF2B2D;
+}
+
+.python {
+  color: #326C9B;
+}
+
+/* ==============================
+             Portfolio
+   ============================== */
+
+.project-item {
+  margin: 10px 5px 20px 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  box-shadow: 0 15px 20px -5px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.project-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-img img {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+.project-intro {
+  width: 100%;
+  height: 300px;
+  padding: 20px 20px 0 20px;
+  -webkit-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.project-description {
+  font-family: 'PT Sans Narrow', sans-serif;
+  margin: 0 0 8px 0;
+  padding: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  line-height: 1.1;
+}
+
+.external-buttons {
+  font-size: 11px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #aaa;
+  line-height: 1.2;
+}
+
+.hide-titles .project-item > a {
+  overflow: hidden;
+  padding: 0;
+}
+
+.hide-titles .project-item .project-intro {
+  opacity: 0;
+  bottom: -94px;
+}
+
+.hide-titles .project-item:hover .project-intro {
+  opacity: 1;
+}
+
+.project-intro {
+  -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+  -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+  -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+  -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+  transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+}
+
+.project-item:hover {
+  cursor: default;
+}
+
+.project-item:hover .project-intro {
+  color: #fff;
+  -webkit-transform: translateY(-80px);
+  -moz-transform: translateY(-80px);
+  transform: translateY(-80px);
+  z-index: 3;
+}
+
+.project-item:hover .project-description {
+  color: #ccc;
+}
+
+.project-item:hover .external-buttons {
+  color: #999;
+}
+
+.project-img:after {
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(250, 250, 250, 0);
+  -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+  -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+  -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+  -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+  transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+}
+
+.project-item:hover .project-img:after {
+  background: rgba(20, 20, 20, .85);
+}
+
+.project-item .project-img > img {
+  -webkit-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+  -moz-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+  -o-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+  -ms-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+  transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+}
+
+.project-item:hover .project-img > img {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.1);
+}
+
+.project-title {
+  padding-top: 20px;
+  font-family: "Droid Sans", sans-serif;
+  font-size: 18px;
+  letter-spacing: 1.1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #fff;
+  height: 65px;
+}
+
+/* ==============================
+            Page loader
+   ============================== */
+
+.page-loader {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fefefe;
+  z-index: 100000;
+}
+
+.loader {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+  font-size: 10px;
+  text-indent: -12345px;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  border-right: 1px solid rgba(0, 0, 0, 0.08);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-animation: spinner 700ms infinite linear;
+  -moz-animation: spinner 700ms infinite linear;
+  -ms-animation: spinner 700ms infinite linear;
+  -o-animation: spinner 700ms infinite linear;
+  animation: spinner 700ms infinite linear;
+  z-index: 100001;
+}
+
+@keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* ==============================
+              Footer
+   ============================== */
+
+#footer {
+  text-align: center;
+}
+
+footer {
+  padding: 20px 0 2px 0;
+  background-color: grey;
+}
+
+footer p {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+}
+
+#social {
+  margin: 20px 10px;
+  text-align: center;
+}
+
+.smGlobalBtn {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 25px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+}
+/* twitter button class*/
+
+.twitterBtn {
+  background: #1DA1F2;
+}
+
+.twitterBtn:before {
+  font-family: "FontAwesome";
+  content: "\f099";
+    /* add twitter icon */;
+}
+
+.twitterBtn:hover {
+  color: #00ABE3;
+  background: #fff;
+}
+
+.linkedinBtn {
+  background: #0094BC;
+}
+
+.linkedinBtn:before {
+  font-family: "FontAwesome";
+  content: "\f0e1";
+}
+
+.linkedinBtn:hover {
+  color: #0077B5;
+  background: #fff;
+}
+
+.githubBtn {
+  background: #171515;
+}
+
+.githubBtn:before {
+  font-family: FontAwesome;
+  content: "\f113";
+}
+
+.githubBtn:hover {
+  color: #171515;
+  background: #fff;
+}
+
+.udacityBtn {
+  background: #02B3E4;
+}
+
+.udacityBtn:before {
+  font-family: FontAwesome;
+  content: "\f0cd";
+}
+
+.udacityBtn:hover {
+  color: #02B3E4;
+  background: #fff;
+}
+
+.instaBtn {
+  background: #EC0084;
+}
+
+.instaBtn:before {
+  font-family: FontAwesome;
+  content: "\f16d";
+}
+
+.instaBtn:hover {
+  color: #EC0084;
+  background: white;
+}
