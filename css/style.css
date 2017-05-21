@@ -6,56 +6,48 @@
    ============================== */
 
 body {
-  font-size: 14px;
-  font-family: "Open Sans", arial, sans-serif;
-  line-height: 1.6;
+  font: 1.4em/1.6 "Open Sans", arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   background-color: #EBEBEB;
 }
 
 section {
-  margin-top: 10px;
-  margin-bottom: 25px;
+  margin: 1em 0 2.5em 0;
 }
 
 hr {
   height: 3px;
+  margin-top: 10px;
+  margin-bottom: 40px;
   width: 30%;
   background-color: #1C262F;
   border: none;
 }
 
 h2 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 500;
-  font-size: 40px;
+  font: 500 40px 'Raleway', sans-serif;
   color: #1C262F;
-  letter-spacing: 1.2px;
+  letter-spacing: 0.04em;
 }
 
 h4 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 500;
-  font-size: 20px;
+  font: 500 20px 'Open Sans', sans-serif;
   color: #1C2621;
 }
 
 .heading {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 40px;
+  font: 600 40px 'Raleway', sans-serif;
   color: #1C262F;
-  letter-spacing: 2.5px;
+  letter-spacing: 0.09em;
   text-align: center;
   text-transform: uppercase;
 }
 
 .btn {
-  font-size: 13px;
-  font-weight: 600;
+  font: 600 13px 'Roboto', sans-serif;
   margin: 0 5px 0 5px;
-  padding-top: 9px;
-  letter-spacing: 1.1px;
+  padding-top: 11px;
+  letter-spacing: 0.04em;
   height: 40px;
   border-radius: 6px;
 }
@@ -87,8 +79,7 @@ button:focus {
 
 .logo {
   width: 80px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 0 20px 0;
 }
 
 /* ==============================
@@ -97,19 +88,16 @@ button:focus {
 
 .skill-icon {
   display: block;
-  text-align: center;
   height: 80px;
   width: 80px;
-  border-radius: 20px;
   margin: 0 auto;
   padding: 8px;
-  font-size: 2em;
-  font-family: 'Roboto', sans-serif;
 }
 
 .skill-name {
   text-align: center;
-  font-weight: bold;
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
 
 .html {
@@ -174,21 +162,16 @@ button:focus {
 }
 
 .project-description {
-  font-family: 'PT Sans Narrow', sans-serif;
+  font: 20px/1.1 'PT Sans Narrow', sans-serif;
   margin: 0 0 8px 0;
   padding: 10px;
-  font-size: 20px;
   text-transform: uppercase;
-  letter-spacing: 1.4px;
-  line-height: 1.1;
+  letter-spacing: 0.04em;
 }
 
 .external-buttons {
-  font-size: 11px;
   text-align: center;
   text-transform: uppercase;
-  color: #aaa;
-  line-height: 1.2;
 }
 
 .hide-titles .project-item > a {
@@ -271,10 +254,8 @@ button:focus {
 
 .project-title {
   padding-top: 20px;
-  font-family: "Droid Sans", sans-serif;
-  font-size: 18px;
-  letter-spacing: 1.1px;
-  font-weight: 500;
+  font: 500 18px "Droid Sans", sans-serif;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
   background-color: #fff;
   height: 65px;
@@ -351,15 +332,13 @@ footer {
 }
 
 footer p {
-  font-size: 16px;
+  font: 400 18px "Raleway", sans-serif;
   color: white;
   margin-top: 10px;
   text-align: center;
-  font-weight: 500;
 }
 
 #social {
-  margin: 20px 10px;
   text-align: center;
 }
 
@@ -369,13 +348,12 @@ footer p {
   cursor: pointer;
   width: 50px;
   height: 50px;
-  margin: 5px;
+  margin: 10px 0 20px 0;
   padding: 0;
   text-decoration: none;
   text-align: center;
   color: #fff;
   font-size: 25px;
-  font-weight: normal;
   line-height: 2em;
   border-radius: 25px;
   -moz-border-radius: 25px;
@@ -390,7 +368,8 @@ footer p {
 .twitterBtn:before {
   font-family: "FontAwesome";
   content: "\f099";
-    /* add twitter icon */;
+    /* add twitter icon */
+  ;
 }
 
 .twitterBtn:hover {
@@ -461,18 +440,19 @@ footer p {
 
 @media screen and (max-width: 520px) {
   h2 {
-    font-size: 25px;
-    letter-spacing: 1px;
-}
+    margin-top: 30px;
+    font-size: 27px;
+    letter-spacing: 0.02em;
+  }
 
   h4 {
-    font-size: 20px;
-    letter-spacing: 1px;
-}
+    font-size: 15px;
+    letter-spacing: 0.01em;
+  }
 
   .heading {
-    font-size: 25px;
-    letter-spacing: 1px;
+    font-size: 26px;
+    letter-spacing: 0.02em;
+  }
 }
 
-}
