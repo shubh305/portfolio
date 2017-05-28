@@ -46,7 +46,7 @@ h4 {
 .btn {
   font: 600 13px 'Roboto', sans-serif;
   margin: 0 5px 0 5px;
-  padding-top: 11px;
+  padding-top: 10px;
   letter-spacing: 0.04em;
   height: 40px;
   border-radius: 6px;
@@ -116,8 +116,8 @@ button:focus {
   color: #3D1D46;
 }
 
-.angular {
-  color: #AF2B2D;
+.flask {
+  color: #000000;
 }
 
 .python {
