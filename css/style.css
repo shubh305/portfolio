@@ -1,4 +1,5 @@
 /*Google font*/
+
 @import url('https://fonts.googleapis.com/css?family=Just+Another+Hand|Roboto|Khand|Noto+Sans|Open+Sans+Condensed:300|PT+Sans+Narrow|Raleway|Rosario');
 
 /* ==============================
@@ -82,6 +83,7 @@ button:focus {
   margin: 20px 0 20px 0;
 }
 
+
 /* ==============================
              Skills
    ============================== */
@@ -116,13 +118,14 @@ button:focus {
   color: #3D1D46;
 }
 
-.flask {
-  color: #000000;
+.angular {
+  color: #DD0031;
 }
 
 .python {
   color: #326C9B;
 }
+
 
 /* ==============================
              Portfolio
@@ -174,7 +177,7 @@ button:focus {
   text-transform: uppercase;
 }
 
-.hide-titles .project-item > a {
+.hide-titles .project-item>a {
   overflow: hidden;
   padding: 0;
 }
@@ -236,7 +239,7 @@ button:focus {
   background: rgba(20, 20, 20, .85);
 }
 
-.project-item .project-img > img {
+.project-item .project-img>img {
   -webkit-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
   -moz-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
   -o-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
@@ -244,7 +247,7 @@ button:focus {
   transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
 }
 
-.project-item:hover .project-img > img {
+.project-item:hover .project-img>img {
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.05);
   -o-transform: scale(1.05);
@@ -260,6 +263,7 @@ button:focus {
   background-color: #fff;
   height: 65px;
 }
+
 
 /* ==============================
             Page loader
@@ -308,7 +312,6 @@ button:focus {
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-
   100% {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -317,6 +320,7 @@ button:focus {
     transform: rotate(360deg);
   }
 }
+
 
 /* ==============================
               Footer
@@ -359,6 +363,8 @@ footer p {
   -moz-border-radius: 25px;
   -webkit-border-radius: 25px;
 }
+
+
 /* twitter button class*/
 
 .twitterBtn {
@@ -368,7 +374,7 @@ footer p {
 .twitterBtn:before {
   font-family: "FontAwesome";
   content: "\f099";
-    /* add twitter icon */
+  /* add twitter icon */
   ;
 }
 
@@ -444,15 +450,12 @@ footer p {
     font-size: 27px;
     letter-spacing: 0.02em;
   }
-
   h4 {
     font-size: 15px;
     letter-spacing: 0.01em;
   }
-
   .heading {
     font-size: 26px;
     letter-spacing: 0.02em;
   }
 }
-
